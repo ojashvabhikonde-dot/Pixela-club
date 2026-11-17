@@ -1,0 +1,22 @@
+/* frontend/src/styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply bg-bgDark text-primary font-sans min-h-screen;
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbars for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1f1f1f;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ff7e1b;
+  border-radius: 4px;
+}

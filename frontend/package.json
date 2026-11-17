@@ -1,0 +1,31 @@
+{
+  "name": "club-app-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "13.x",
+    "react": "18.x",
+    "react-dom": "18.x",
+    "tailwindcss": "3.x",
+    "autoprefixer": "10.x",
+    "postcss": "8.x",
+    "framer-motion": "^10.0.0",
+    "gsap": "^3.12.2",
+    "three": "^0.158.0",
+    "@react-three/fiber": "^8.13.5",
+    "@react-three/drei": "^9.70.0",
+    "lucide-react": "^0.300.0",
+    "axios": "^1.6.8",
+    "swr": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^13.5.6"
+  }
+}
